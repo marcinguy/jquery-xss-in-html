@@ -1,8 +1,6 @@
 # jquery-xss-in-html
 jQuery &lt; 3.5 Cross-Site Scripting (XSS) in html()
 
-jQuery < 3.5 Cross-Site Scripting (XSS)
-
 Timmy Willison recently released a new version of jQuery. jQuery 3.5 fixes a cross-site scripting (XSS) vulnerability found in the jQuery’s HTML parser. The Snyk open source security platform estimates that 84% of all websites may be impacted by jQuery XSS vulnerabilities.
 
 Masato Kinugawa found a cross-site scripting (XSS) vulnerability in the htmlPrefilter method of jQuery, and published an example showing a popup alert window in the form of a challenge. (https://xss.pwnfunction.com/challenges/ww3/)
