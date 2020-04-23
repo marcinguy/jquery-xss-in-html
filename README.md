@@ -7,7 +7,7 @@ Masato Kinugawa found a cross-site scripting (XSS) vulnerability in the htmlPref
 
 Below is a CodeQL query I wrote that can find user controlled values passed to html() which can be abused to perform Cross-Site Scripting.
 
-Please check your projects, submit responsible disclousure to projects that might be affected.
+Please check your projects, submit responsible disclosures to projects that might be affected.
 
 ```
 /**
